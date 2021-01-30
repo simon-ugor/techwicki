@@ -21,17 +21,27 @@ const index = () => {
         <Layout>
             <div className="content-main-div">
                 <div className="categories-div">
-                    <h1 className="categories-heading">Categories</h1>
 
-                    {cat.map(d => {
-                        return <Category bg={d.bg} key={d.heading} heading={d.heading} link={d.link} />
-                    })}
+                    <div>
+                        <h1 className="categories-heading">Categories</h1>
+                        <div className="cats">
 
-                    <h1 className="articles-heading">Top Articles</h1>
-
-                    {art.map(d => {
-                        return <Article key={d.heading} heading={d.heading} link={d.link} />
-                    })}
+                        
+                            {cat.map(d => {
+                                return <Category bg={d.bg} key={d.heading} heading={d.heading} link={d.link} />
+                            })}
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h1 className="articles-heading">Top Articles</h1>
+                        <div className="arts">
+                        
+                            {art.map(d => {
+                                return <Article key={d.heading} heading={d.heading} link={d.link} />
+                            })}
+                        </div>
+                    </div>
 
                 </div>
                 <Footer />
