@@ -6,6 +6,25 @@
     padding: 0;
 }
 
+@keyframes pulse {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .pulse {
+    animation-name: pulse;
+    animation-timing-function: ease-in-out;
+  }
+
 @font-face {
     font-family: normal;
     src: url(./fonts/regular.ttf);
@@ -126,6 +145,7 @@
     display: flex;
     flex-direction: row;
     color: black;
+    cursor: pointer;
 }
 
 .articles-heading {
@@ -231,6 +251,10 @@
     text-decoration: none;
 }
 
+.desktop-footer {
+    display: none;
+}
+
 /* Search */
 
 .search-main-div {
@@ -287,6 +311,10 @@
     justify-content: center;
 }
 
+.right-desktop {
+    display: none;
+}
+
 /* Footer */
 
 .footer-main-div {
@@ -298,6 +326,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.desktop-right {
+    display: none;
 }
 
 /* Media Queries */
@@ -358,5 +390,87 @@
         position: absolute;
         bottom: 0;
         left: 0;
+    }
+
+    .desktop-categories-div {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article-structure-div {
+        height: 93vh;
+        text-align: center;
+    }
+
+    .article-desktop {
+        height: 86vh;
+        overflow-y: scroll;
+    }
+
+    .article-structure-heading {
+        font-size: 5vh;
+    }
+
+    .article-structure-subheading {
+        font-size: 5vh;
+    }
+
+    .article-structure-paragraph {
+        font-size: 3vh;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        line-height: 4vh;
+    }
+
+    .footer-main-div {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .image {
+        cursor: pointer;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .desktop-right {
+        display: flex;
+        width: 21vw;
+    }
+
+    .x-button-search {
+        cursor: pointer;
+    }
+
+    .category-main-div:hover {
+        animation: pulse;
+        animation-duration: 0.5s;
+    }
+
+    .article-main-div:hover {
+        border-color: #1a4d9a;
+        color: #1a4d9a;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop-footer {
+        display: block;
+        color: black;
+        font-family: normal;
+    }
+
+    .desktop-footer:hover {
+        color: #1a4d9a;
     }
 }

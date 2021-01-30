@@ -42,7 +42,8 @@ let art = [
     {
         "heading": "VR - falloff or only the beginning?",
         "link": "/articles/virtual-reality-falloff-or-beginning",
-        "category": "VR"
+        "category": "VR",
+        "top": "top"
     },
 
     //Instagram Algorithm
@@ -50,7 +51,8 @@ let art = [
     {
         "heading": "What is Instagram",
         "link": "/articles/what-is-instagram",
-        "category": "IG"
+        "category": "IG",
+        "top": "top"
     },
 
     {

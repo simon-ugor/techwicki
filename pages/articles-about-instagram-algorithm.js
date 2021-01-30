@@ -17,10 +17,12 @@ const articlesAboutIG = () => {
         <Layout>
             <div className="content-main-div">
                 <div className="categories-div">
-                    <h1 className="articles-heading">Instagram Algorithm</h1>
-                    {data.map(d => {
-                        return <Article key={d.heading} heading={d.heading} link={d.link} />
-                    })}
+                    <div className="desktop-categories-div">
+                        <h1 className="articles-heading">Instagram Algorithm</h1>
+                        {data.map(d => {
+                            return <Article key={d.heading} heading={d.heading} link={d.link} />
+                        })}
+                    </div>
                 </div>
                 <Footer />
             </div>

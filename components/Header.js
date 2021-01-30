@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const Header = (props) => {
 
@@ -19,6 +20,7 @@ const Header = (props) => {
                     width={28}
                     height={28}
                     onClick={handleSearchClick}
+                    className="image"
                 />
             </div>
             <div className="middle">
@@ -30,14 +32,15 @@ const Header = (props) => {
                 />
             </div>
             <div className="right">
-                <Image 
-                    src="/menu.png"
-                    alt="Menu"
-                    width={30}
-                    height={30}
-                    onClick={handleMenuClick}
-                />
+                    <Image 
+                        src="/menu.png"
+                        alt="Menu"
+                        width={30}
+                        height={30}
+                        onClick={handleMenuClick}
+                    />
             </div>
+            <div className="desktop-right"></div>
         </div>
     )   
 }
