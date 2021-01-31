@@ -8,7 +8,7 @@ const historyOfVR = () => {
             <Layout>
                 <Head>
                     <title>History of Virtual Reality</title>
-                    <meta name="description" content="Hello description" />
+                    <meta name="description" content="We first have to define what Virtual Reality is, how Virtual Reality works and what is the history of Virtual Reality." />
                 </Head>
                 <ArticleStructure
                     heading="History of Virtual Reality"
