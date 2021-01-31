@@ -77,9 +77,9 @@
 .categories-div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 2vh;
+    min-height: 81.5vh;
 }
 
 .categories-heading {
@@ -330,6 +330,10 @@
 
 .desktop-right {
     display: none;
+}
+
+.article-desktop {
+    min-height: 81.5vh;
 }
 
 /* Media Queries */
