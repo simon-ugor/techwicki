@@ -13,6 +13,7 @@ const vrFalloff = () => {
                 <ArticleStructure
                     heading="VR - falloff or only the beginning?"
                     text="After discussing some of the most common use-cases of VR, the question arises, is this only the beginning and should companies do more research and development to make VR even better or should it be replaced with new and better technology instead? That depends on many factors and from point of view as well."
+                    img="/vr3.jpg"
                     subheading2="Advantages"
                     text2="Doesn’t matter if we are talking about VR as an entertaining device, or device for education or medical use, VR is a big technological step forward. Simply because it is not perfect doesn’t mean it is not useful. Really wide use - from daily entertainment source to curing people from mental disorders and raising future doctors - can only show us how useful VR technologies can be and that there is no reason to not use these advantages. Of course, it doesn’t mean companies shouldn’t focus on devel- oping new and better technologies but also doesn’t mean they should stop investing into Virtual Reality research."
                     subheading3="Disadvantages"
