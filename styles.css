@@ -112,6 +112,7 @@
     text-align: center;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .bg-div {
@@ -146,6 +147,7 @@
     flex-direction: row;
     color: black;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .articles-heading {

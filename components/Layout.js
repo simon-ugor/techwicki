@@ -66,11 +66,11 @@ const Layout = (props) => {
                     <button onClick={menuCloseClick} className="x-button">x</button>
                 </div>
                 <ul className="menu-list">
-                    <Link href="/"><li className="list-element">&#x2022; Homepage</li></Link>
-                    <Link href="/aboutus"><li className="list-element">&#x2022; About Us</li></Link>
-                    <Link href="/contactus"><li className="list-element">&#x2022; Contact Us</li></Link>
-                    <Link href="/termsofuse"><li className="list-element">&#x2022; Terms of Use</li></Link>
-                    <Link href="/privacypolicy"><li className="list-element">&#x2022; Privacy Policy</li></Link>
+                    <Link href="/"><li className="list-element"><a>&#x2022; Homepage</a></li></Link>
+                    <Link href="/aboutus"><li className="list-element"><a>&#x2022; About Us</a></li></Link>
+                    <Link href="/contactus"><li className="list-element"><a>&#x2022; Contact Us</a></li></Link>
+                    <Link href="/termsofuse"><li className="list-element"><a>&#x2022; Terms of Use</a></li></Link>
+                    <Link href="/privacypolicy"><li className="list-element"><a>&#x2022; Privacy Policy</a></li></Link>
                 </ul>
             </div>
             <div className="search-main-div" style={{display: searchDisplay}}>

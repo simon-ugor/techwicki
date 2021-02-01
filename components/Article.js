@@ -5,7 +5,7 @@ import Image from "next/image"
 const Article = (props) => {
     return (
         <Link href={props.link}>
-            <div className="article-main-div">
+            <a className="article-main-div">
                 <div className="article-image">
                     <Image
                         src="/article.png"
@@ -17,7 +17,7 @@ const Article = (props) => {
                 <div className="article-name">
                     <h2>{props.heading}</h2>
                 </div>
-            </div>
+            </a>
         </Link>
     )
 }
