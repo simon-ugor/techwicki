@@ -11,6 +11,8 @@ const contactUs = () => {
             </Head>
             <ArticleStructure 
                 heading="Contact Us"
+                img="/vr1.jpg"
+                display="none"
                 text="For any questions or troubleshooting you can always contact us at:"
                 text2="coldenwebdev@gmail.com"
             />

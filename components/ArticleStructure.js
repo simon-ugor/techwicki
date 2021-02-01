@@ -8,7 +8,7 @@ const ArticleStructure = (props) => {
             <h2 className="article-structure-heading">{props.heading}</h2>
             <h3 className="article-structure-subheading">{props.subheading}</h3>
             <p className="article-structure-paragraph">{props.text}</p>
-            <div style={{marginTop: "2vh"}} className="article-image-div">
+            <div style={{marginTop: "2vh", display: props.display}} className="article-image-div">
                 <Image
                     src={props.img}
                     alt="Instagram Image"
