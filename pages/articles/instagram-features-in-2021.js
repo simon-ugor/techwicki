@@ -13,6 +13,7 @@ const instagramFeatures = () => {
                 <ArticleStructure
                     heading="Instagram features"
                     text="Before we start diving deeper into Instagram algorithm, we need a clear understand- ing of IG features, how they work and what can be done with them. This is a brief list and explanation of all important features added to Instagram until now. This will be required to understand IG algorithm and not mix up any terms."
+                    img="/instagram2.jpg"
                     subheading2="Posts"
                     text2="Instagram posts were introduced in the very beginning, in fact, app was already released with this feature and I would consider this as a main feature of the app. Starting off with a simplest form of 1:1 aspect ratio square images, Instagram posts have evolved over time. As of right now, there are multiple types of posts users can choose from. Users can post an image not anymore required to be a square, video with a length restriction of 1 minute or a carousel containing up to 10 images or videos. Every post can include a caption limited with the length of 2200 characters, hashtags (maximum 30 hashtags per post), tags to tag other IG users on the post and location. There are also multiple interactions users can perform on a post. Post can be liked, commented on, shared or saved. These are the 4 main actions that will matter a lot when talking about Instagram algorithm."
                     subheading3="Stories"

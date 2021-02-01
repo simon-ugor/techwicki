@@ -13,6 +13,7 @@ const isInstagramBiased = () => {
                 <ArticleStructure
                     heading="Is IG Algorithm biased?"
                     text="We already defined how Instagram works and how Instagram Algorithm works, the only thing we need to define now to be hopefully able to answer our question is, what biased actually means. Term bias can be widely used, so from which point of view are we looking at this issue?"
+                    img="/instagram4.jpg"
                     subheading2="What does it mean to be biased?"
                     text2="“Unreasonably hostile feelings or opinions about a social group”, “inclination or prej- udice for or against one person or group, especially in a way considered to be unfair” and many other definitions to define this term. While these definitions are all correct, we need to be more specific about what kind of bias are we looking for. There is really insufficient amount of material to use in case of Instagram Algorithm bias so I will put together my experiences and knowledge with articles I was able to found (mentioned in list of references) to form a clear idea if IG Algorithm should be considered biased or not. This part will be split into two main categories, Bias considering famous people and Ethnic bias."
                     subheading3="Bias considering famous people"
