@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import Article from "../components/Article.js"
 import Category from "../components/Category.js"
 import Layout from "../components/Layout.js"
+import Head from "next/head"
 
 import categories from "../data/categories.js"
 import articles from "../data/articles.js"
@@ -19,6 +20,10 @@ const index = () => {
 
     return (
         <Layout>
+            <Head>
+                <title>TechWicki</title>
+                <meta name="description" content="Welcome to TechWicki. Here you can find multiple interesting articles on various topics like Instagram Algorithm and Use-Cases of Virtual Reality." />
+            </Head>
             <div className="content-main-div">
                 <div className="categories-div">
 
