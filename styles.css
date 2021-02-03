@@ -231,6 +231,11 @@
     color: #1a4d9a;
 }
 
+.menu-list {
+    display: flex;
+    flex-direction: column;
+}
+
 .close-div {
     text-align: right;
     padding-right: 3vh;
@@ -252,6 +257,7 @@
     margin-top: 3vh;
     list-style-type: none;
     text-decoration: none;
+    color: #1a4d9a;
 }
 
 .desktop-footer {
