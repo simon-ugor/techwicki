@@ -137,6 +137,16 @@
     background-position: center;
 }
 
+#ws {
+    background-image: url(./public/bg3.jpg);
+    background-position: center;
+}
+
+#js {
+    background-image: url(./public/bg4.jpg);
+    background-position: center;
+}
+
 /* Article */
 
 .article-main-div {
@@ -358,6 +368,7 @@
     .category-main-div {
         width: 40vw;
         margin: 0;
+        margin-bottom: 2vh;
     }
 
     .bg-div {
@@ -383,14 +394,17 @@
     }
 
     .cats {
-        width: 100vw;
         display: flex;
-        flex-direction: row;
+        align-items: center;
         justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        align-content: flex-end;
     }
 
     .articles-heading {
-        margin-top: 5vh;
+        margin-top: 2vh;
         margin-bottom: 3vh;
     }
 
