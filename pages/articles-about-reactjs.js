@@ -23,7 +23,7 @@ const articlesAboutReact = () => {
             <div className="content-main-div">
                 <div className="categories-div">
                     <div className="desktop-categories-div">
-                    <h1 className="articles-heading">Articles about ReactJS</h1>
+                    <h1 className="articles-heading">ReactJS</h1>
                         {data.map(d => {
                             return <Article key={d.heading} heading={d.heading} link={d.link} />
                         })}
