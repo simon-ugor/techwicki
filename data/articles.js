@@ -106,7 +106,13 @@ let art = [
         "link": "/articles/reactjs-and-react-hooks",
         "category": "JS",
         "top": "top"
-    }
+    },
+
+    {
+        "heading": "UseState and UseEffect in React",
+        "link": "/articles/usestate-and-useeffect",
+        "category": "JS",
+    },
 ]
 
 export default art
