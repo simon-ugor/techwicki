@@ -16,7 +16,7 @@ const index = () => {
 
     useEffect(() => {
         setArt((art) => art.filter((item) => item.top === "top"))
-        document.documentElement.lang = 'en';
+        document.documentElement.lang = 'sk';
     }, [])
 
     return (
@@ -29,7 +29,7 @@ const index = () => {
                 <div className="categories-div">
 
                     <div>
-                        <h1 className="categories-heading">Categories</h1>
+                        <h1 className="categories-heading">Kategórie</h1>
                         <div className="cats">
 
                         
@@ -40,7 +40,7 @@ const index = () => {
                     </div>
                     
                     <div>
-                        <h1 className="articles-heading">Top Articles</h1>
+                        <h1 className="articles-heading">Najlepšie články</h1>
                         <div className="arts">
                         
                             {art.map(d => {

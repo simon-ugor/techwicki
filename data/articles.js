@@ -113,6 +113,12 @@ let art = [
         "link": "/articles/usestate-and-useeffect",
         "category": "JS",
     },
+
+    {
+        "heading": "ReactJS vs NextJS",
+        "link": "/articles/reactjs-vs-nextjs",
+        "category": "JS",
+    }
 ]
 
 export default art
