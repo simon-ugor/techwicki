@@ -9,7 +9,7 @@ const NextjsFromScratch = () => {
             <Layout>
                 <Head>
                     <title>How to create NextJS app from scratch</title>
-                    <meta name="description" content="" />
+                    <meta name="description" content="How to create new NextJS project? There are multiple ways to go about creating a NextJS project. Easiest way to get started is by typing npx create-next-app in your terminal. Created template by using NodeJS npx create-next-app might be confusing for beginners. So how do you create NextJS app from scratch?" />
                 </Head>
                 <div className="article-structure-div">
                     <div className="article-desktop">
