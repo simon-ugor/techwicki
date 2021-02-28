@@ -118,7 +118,13 @@ let art = [
         "heading": "ReactJS vs NextJS",
         "link": "/articles/reactjs-vs-nextjs",
         "category": "JS",
-    }
+    },
+
+    {
+        "heading": "How to create NextJS app from scratch",
+        "link": "/articles/how-to-create-nextjs-app-from-scratch",
+        "category": "JS",
+    },
 ]
 
 export default art

@@ -355,6 +355,10 @@
     min-height: 81.5vh;
 }
 
+.article-a {
+    color: black;
+}
+
 /* Media Queries */
 
 @media screen and (orientation: landscape) {
