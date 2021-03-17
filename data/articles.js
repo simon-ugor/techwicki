@@ -98,6 +98,11 @@ let art = [
         "link": "/articles/is-web-scraping-legal",
         "category": "WS"
     },
+    {
+        "heading": "Copyright issues with web scraping",
+        "link": "/articles/copyright-issues-with-web-scraping",
+        "category": "WS"
+    },
 
     // React JS
 
