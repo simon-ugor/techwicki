@@ -9,7 +9,7 @@ const CopyrightWebScraping = () => {
             <Layout>
                 <Head>
                     <title>Copyright issues with web scraping</title>
-                    <meta name="description" content="How to create new NextJS project? There are multiple ways to go about creating a NextJS project. Easiest way to get started is by typing npx create-next-app in your terminal. Created template by using NodeJS npx create-next-app might be confusing for beginners. So how do you create NextJS app from scratch?" />
+                    <meta name="description" content="As already mentioned, we have to be careful when it comes to web scraping so we don’t run into any legal issues. Sometimes it can get difficult to tell what content is legal to scrape and what content is not. But how do we differentiate this and what is causing legal issues when it comes to web scraping? Usually, these legal issues can be caused by copyright. Copyrighted content is considered illegal to scrape with intentions to use it for yourself and might be considered as stealing. So, what is this copyright?" />
                 </Head>
                 <div className="article-structure-div">
                     <div className="article-desktop">
